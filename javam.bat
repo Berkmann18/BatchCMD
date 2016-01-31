@@ -3,7 +3,6 @@ rem Copyrights (c) 2016 Maximilian Berkmann
 rem A java program maker.
 
 @echo off
-color 0A
 
 :st
 if not "%~1"=="" (
