@@ -1,6 +1,6 @@
-REM init
-REM Copyrights (c) 2016 Maximilian Berkmann
-REM Console initialisation program
+rem init
+rem Copyrights (c) 2016 Maximilian Berkmann
+rem Console initialisation program
 
 @echo off
 title Terminal
