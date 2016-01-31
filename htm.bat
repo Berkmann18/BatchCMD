@@ -32,11 +32,11 @@ echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
 echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann"^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat"^>>>%~1.html
-echo   ^<meta name="description" content=""^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, "^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann"^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
+echo   ^<meta name="description" content="" /^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
 echo   ^<style type="text/css"^>>>%~1.html
 echo     * {>>%~1.html
 echo       font-family: Calibrie, Verdana, Segoe UI;>>%~1.html
@@ -61,11 +61,11 @@ echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
 echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann"^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat"^>>>%~1.html
-echo   ^<meta name="description" content=""^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, "^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann"^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
+echo   ^<meta name="description" content="" /^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
 echo   ^<link rel="stylesheet" content="css/style.css" /^>>>%~1.html
 echo   ^<script type="text/javascript"^ src="js/script.js"^>^</script^>>>%~1.html
 echo   ^<script type="text/javascript"^>>>%~1.html
@@ -86,13 +86,13 @@ echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
 echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann"^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat"^>>>%~1.html
-echo   ^<meta name="description" content=""^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, "^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann"^>>>%~1.html
-echo   ^<link rel="stylesheet" content="css/style.css" /^>>>%~1.html
-echo   ^<script type="text/javascript"^ src="js/essence.min.js"^>^</script^> >>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
+echo   ^<meta name="description" content="" /^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
+echo   ^<link rel="stylesheet" content="css/style.css" //^>>>%~1.html
+echo   ^<script type="text/javascript"^ src="js/essence.min.js"^>^</script^>>>%~1.html
 echo   ^<script type="text/javascript"^>>>%~1.html
 echo     Essence.applyCSS();>>%~1.html
 echo.    >>%~1.html
@@ -113,11 +113,11 @@ echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
 echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann"^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat"^>>>%~1.html
-echo   ^<meta name="description" content=""^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, "^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann"^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
+echo   ^<meta name="description" content="" /^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
 echo   ^<style type="text/css"^>>>%~1.html
 echo     * {>>%~1.html
 echo       font-family: Calibrie, Verdana, Segoe UI;>>%~1.html
