@@ -1,8 +1,7 @@
+@echo off
 rem javam
 rem Copyrights (c) 2016 Maximilian Berkmann
 rem A java program maker.
-
-@echo off
 
 :st
 if not "%~1"=="" (
