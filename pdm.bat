@@ -1,8 +1,7 @@
+@echo off
 rem pdm
 rem Copyrights (c) 2016 Maximilian Berkmann
 rem A Processing program (processing development environment file) maker.
-
-@echo off
 
 :st
 if not "%~1"=="" (
