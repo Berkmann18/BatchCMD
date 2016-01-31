@@ -1,8 +1,8 @@
+@echo off
 rem init
 rem Copyrights (c) 2016 Maximilian Berkmann
 rem Console initialisation program
 
-@echo off
 title Terminal
 cls
 
