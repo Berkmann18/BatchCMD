@@ -34,6 +34,7 @@ if not "%~1"=="" (
 	if /i "%~1"=="def" color
 	if "%~1"=="" color 0A
 	if "%~2"=="" title Terminal
+	if not "%~2"=="" title %~2
 	if /i "%~1"=="/?" goto help
 	shift
 	goto st
