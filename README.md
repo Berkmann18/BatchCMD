@@ -12,6 +12,8 @@ This package contains the following programs:
 -   **multi.bat** (currently in progress): Same as **init.bat** but mutli cmd instance.
 -   **arch.bat**: 3rd-partyless directory archiver.
 -   **tran.bat**: Directory transformer which transfer everything of that folder into an image.
+-   **mrd.bat** (***coming soon***): Random decimal file maker
+-   **update.bat** (***coming soon***): A program/software updater that copy-paste the programs/sofwares of your dev directory into the System32.
 
 The executables can be found here:
 -   **init.exe** (Win64/Win32): http://adf.ly/1Xq4am / http://adf.ly/1Xq5Hi
