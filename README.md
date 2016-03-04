@@ -22,3 +22,9 @@ The executables can be found here:
 -   **multi.exe**: 
 -   **arch.exe**: https://www.dropbox.com/s/nqe1e197rl88soq/arch.exe?dl=0
 -   **tran.exe**: https://www.dropbox.com/s/fv8hqlef1enpoij/tran.exe?dl=0
+
+Some ideas:
+-   Command files update (copy paste either the executable or batch files into Sys32)
+-   Compiler (.rev->rtf/docx/html+reading software, .hex/.bin/.b64->ascii) with a linter
+-   Package installer (unzip and move the executables)
+-   GitHub deployer
