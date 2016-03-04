@@ -14,14 +14,14 @@ This package contains the following programs:
 -   **tran.bat**: Directory transformer which transfer everything of that folder into an image.
 
 The executables can be found here:
--   **init.exe**: https://www.dropbox.com/s/ka9q7hw9huzqogx/init.exe?dl=0
--   **javam.exe**: https://www.dropbox.com/s/hticgpfwm3wbhcg/javam.exe?dl=0
--   **htm.exe**: https://www.dropbox.com/s/q4jq87a1e2htp41/htm.exe?dl=0
--   **pdm.exe** (need some review design-wise): https://www.dropbox.com/s/w06dtf9d5lemf1g/pdm.exe?dl=0
--   **batm.exe**: https://www.dropbox.com/s/gp1od9qpc4y5zsy/batm.exe?dl=0
--   **multi.exe**: 
--   **arch.exe**: https://www.dropbox.com/s/nqe1e197rl88soq/arch.exe?dl=0
--   **tran.exe**: https://www.dropbox.com/s/fv8hqlef1enpoij/tran.exe?dl=0
+-   **init.exe** (Win64/Win32): http://adf.ly/1Xq4am / http://adf.ly/1Xq5Hi
+-   **javam.exe** (Win64/Win32): http://adf.ly/1Xq4cu / http://adf.ly/1Xq5KW
+-   **htm.exe** (Win64/Win32): http://adf.ly/1Xq4eP / http://adf.ly/1Xq5DH
+-   **pdm.exe** (Win64/Win32): http://adf.ly/1Xq4hr / http://adf.ly/1Xq5Mh
+-   **batm.exe** (Win64/Win32): http://adf.ly/1Xq4jx / http://adf.ly/1Xq58y
+-   **multi.exe** (Win64/Win32):  / 
+-   **arch.exe** (Win64/Win32): http://adf.ly/1Xq4m0 / http://adf.ly/1Xq520
+-   **tran.exe** (Win64/Win32): http://adf.ly/1Xq4nx / http://adf.ly/1Xq5SS
 
 Some ideas:
 -   Command files update (copy paste either the executable or batch files into Sys32)
