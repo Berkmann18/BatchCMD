@@ -7,7 +7,7 @@ rem Command updater
 if not "%~1"=="" (
 	if /i "%~1"=="/?" goto help
 	if "%~2"=="" goto help
-	xcopy %~1/*.%~2 %windir%\System32
+	xcopy %~1\*.%~2 %windir%\System32
 	exit /b
 )
 
