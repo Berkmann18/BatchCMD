@@ -13,7 +13,7 @@ This package contains the following programs:
 -   **arch.bat**: 3rd-partyless directory archiver.
 -   **tran.bat**: Directory transformer which transfer everything of that folder into an image.
 -   **mrd.bat** (*coming soon*): Random decimal file maker
--   **update.bat** (*need to be fixed*): A program/software updater that copy-paste the programs/sofwares of your dev directory into the System32.
+-   **update.bat**: A program/software updater that copy-paste the programs/sofwares of your dev/download directory into the System32.
 
 The executables can be found here:
 -   **init.exe** (Win64/Win32): http://adf.ly/1Xq4am / http://adf.ly/1Xq5Hi
@@ -21,11 +21,13 @@ The executables can be found here:
 -   **htm.exe** (Win64/Win32): http://adf.ly/1Xq4eP / http://adf.ly/1Xq5DH
 -   **pdm.exe** (Win64/Win32): http://adf.ly/1Xq4hr / http://adf.ly/1Xq5Mh
 -   **batm.exe** (Win64/Win32): http://adf.ly/1Xq4jx / http://adf.ly/1Xq58y
--   **multi.exe** (Win64/Win32):  / 
+-   **multi.exe** (Win64/Win32): / 
 -   **arch.exe** (Win64/Win32): http://adf.ly/1Xq4m0 / http://adf.ly/1Xq520
 -   **tran.exe** (Win64/Win32): http://adf.ly/1Xq4nx / http://adf.ly/1Xq5SS
--   **mrd.exe** (Win64/Win32):  / 
--   **update.exe** (Win64/Win32):  / 
+-   **mrd.exe** (Win64/Win32): / 
+-   **update.exe** (Win64/Win32): http://adf.ly/1XuFqO / http://adf.ly/1XuGkd
+
+Once the executable/batch script are in the right place, type [command] /? to see their respective documentation.
 
 Some ideas:
 -   Compiler (.rev->rtf/docx/html+reading software, .hex/.bin/.b64->ascii) with a linter
