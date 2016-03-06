@@ -33,5 +33,7 @@ Once the executable/batch script are in the right place, type [command] /? to se
 
 Some ideas:
 -   Compiler (.rev->rtf/docx/html+reading software, .hex/.bin/.b64->ascii) with a linter
--   Package installer (unzip and move the executables)
+-   Package installer (unzip and move the executables): a sub-optimal way of doing this is:
+    unarch mypackage.zip mypackage
+    update mypackage exe *(if the package doesn't have executables than change exe to a more appropriate extension)*
 -   GitHub deployer
