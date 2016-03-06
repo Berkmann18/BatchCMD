@@ -11,6 +11,7 @@ This package contains the following programs:
 -   **batm.bat**: A batch script maker that also allows you to create a command file (just like all the ones of this package).
 -   **multi.bat** (currently in progress): Same as **init.bat** but mutli cmd instance.
 -   **arch.bat**: 3rd-partyless directory archiver.
+-   **unarch.bat**: the opposite of the arch
 -   **tran.bat**: Directory transformer which transfer everything of that folder into an image.
 -   **mrd.bat** (*coming soon*): Random decimal file maker
 -   **update.bat**: A program/software updater that copy-paste the programs/sofwares of your dev/download directory into the System32.
@@ -23,6 +24,7 @@ The executables can be found here:
 -   **batm.exe** (Win64/Win32): http://adf.ly/1Xq4jx / http://adf.ly/1Xq58y
 -   **multi.exe** (Win64/Win32): / 
 -   **arch.exe** (Win64/Win32): http://adf.ly/1Xq4m0 / http://adf.ly/1Xq520
+-   **unarch.exe** (Win64/Win32): http://adf.ly/1XuLx4 / http://adf.ly/1XuM0w
 -   **tran.exe** (Win64/Win32): http://adf.ly/1Xq4nx / http://adf.ly/1Xq5SS
 -   **mrd.exe** (Win64/Win32): / 
 -   **update.exe** (Win64/Win32): http://adf.ly/1XuFqO / http://adf.ly/1XuGkd
