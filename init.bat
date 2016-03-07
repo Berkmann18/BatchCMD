@@ -2,12 +2,12 @@
 
 rem Copyrights (c) 2016 Maximilian Berkmann
 rem Console initialisation program
-
-title Terminal
 cls
 
 :st
 if not "%~1"=="" (
+	if not "%~2"=="" title %~2
+	if "%~2"=="" title Terminal
 	if /i "%~1"=="r" color 0C
 	if /i "%~1"=="g" color 0A
 	if /i "%~1"=="b" color 09
@@ -33,20 +33,18 @@ if not "%~1"=="" (
 	if /i "%~1"=="f0f" color D0
 	if /i "%~1"=="def" color
 	if "%~1"=="" color 0A
-	if "%~2"=="" title Terminal
-	if not "%~2"=="" title %~2
-	if /i "%~1"=="/?" goto help
-	shift
-	goto st
+	if not "%~3"=="echo" @echo off
+	goto help
 )
 exit /b
 
 :help
 echo Initialise the console.
-echo Usage: init [attr] [title]
+echo Usage: init [attr] [title] [echo]
 echo.
 echo   attr       Specify the colour to be used.
 echo   title      Title of the current cmd instance which is Terminal by default.
+echo   echo       If this option is on, it will keep the echo on.
 echo.
 echo The available colours are the following:
 echo.
