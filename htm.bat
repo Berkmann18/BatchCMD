@@ -1,8 +1,8 @@
+@echo off
+
 rem htm
 rem Copyrights (c) 2016 Maximilian Berkmann
 rem An html page maker.
-
-@echo off
 
 :st
 if not "%~1"=="" (
@@ -16,14 +16,13 @@ if not "%~1"=="" (
 )
 
 :help
-echo Make a java program with pre-written code.
+echo Make an html page with pre-written code.
 echo Usage: htm [name] [/e ^| /$ ^| /h5]
 echo.
-echo   No args    Make a normal java program with a main() method.
+echo   No args    Make a normal html page.
 echo   /e         Specify that the ressources (i.e: stylesheets and scripts) are external files.
 echo   /$         Import Essence.min.js.
 echo   /h5        do the DHTML2 way.
-pause
 exit /b
 
 :main
@@ -31,12 +30,12 @@ echo ^<!doctype html^>>%~1.html
 echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
-echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
-echo   ^<meta name="description" content="" /^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta charset="UTF-8" ^/^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" ^/^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" ^/^>>>%~1.html
+echo   ^<meta name="description" content="" ^/^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " ^/^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" ^/^>>>%~1.html
 echo   ^<style type="text/css"^>>>%~1.html
 echo     * {>>%~1.html
 echo       font-family: Calibrie, Verdana, Segoe UI;>>%~1.html
@@ -60,13 +59,13 @@ echo ^<!doctype html^>>%~1.html
 echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
-echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta charset="UTF-8" ^/^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" ^/^>>>%~1.html
 echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
-echo   ^<meta name="description" content="" /^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
-echo   ^<link rel="stylesheet" content="css/style.css" /^>>>%~1.html
+echo   ^<meta name="description" content="" ^/^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " ^/^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" ^/^>>>%~1.html
+echo   ^<link rel="stylesheet" content="css/style.css" ^/^>>>%~1.html
 echo   ^<script type="text/javascript"^ src="js/script.js"^>^</script^>>>%~1.html
 echo   ^<script type="text/javascript"^>>>%~1.html
 echo.    >>%~1.html
@@ -85,13 +84,13 @@ echo ^<!doctype html^>>%~1.html
 echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
-echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
-echo   ^<meta name="description" content="" /^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
-echo   ^<link rel="stylesheet" content="css/style.css" //^>>>%~1.html
+echo   ^<meta charset="UTF-8" ^/^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" ^/^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" ^/^>>>%~1.html
+echo   ^<meta name="description" content="" ^/^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " ^/^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" ^/^>>>%~1.html
+echo   ^<link rel="stylesheet" content="css/style.css" ^/^>>>%~1.html
 echo   ^<script type="text/javascript"^ src="js/essence.min.js"^>^</script^>>>%~1.html
 echo   ^<script type="text/javascript"^>>>%~1.html
 echo     Essence.applyCSS();>>%~1.html
@@ -112,12 +111,12 @@ echo ^<!doctype html^>>%~1.html
 echo ^<html^>>>%~1.html
 echo ^<head^>>>%~1.html
 echo   ^<title^>%~1^</title^>>>%~1.html
-echo   ^<meta charset="UTF-8" /^>>>%~1.html
-echo   ^<meta name="author" content="Maximilian Berkmann" /^>>>%~1.html
-echo   ^<meta name="generator" content="htm.bat" /^>>>%~1.html
-echo   ^<meta name="description" content="" /^>>>%~1.html
-echo   ^<meta name="keywords" content="%~1, " /^>>>%~1.html
-echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" /^>>>%~1.html
+echo   ^<meta charset="UTF-8" ^/^>>>%~1.html
+echo   ^<meta name="author" content="Maximilian Berkmann" ^/^>>>%~1.html
+echo   ^<meta name="generator" content="htm.bat" ^/^>>>%~1.html
+echo   ^<meta name="description" content="" ^/^>>>%~1.html
+echo   ^<meta name="keywords" content="%~1, " ^/^>>>%~1.html
+echo   ^<meta name="copyrights" content="Copyright (c) 2016 Maximilian Berkmann" ^/^>>>%~1.html
 echo   ^<style type="text/css"^>>>%~1.html
 echo     * {>>%~1.html
 echo       font-family: Calibrie, Verdana, Segoe UI;>>%~1.html
