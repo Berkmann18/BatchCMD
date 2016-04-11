@@ -15,6 +15,7 @@ This package contains the following programs:
 -   **tran.bat**: Directory transformer which transfer everything of that folder into an image.
 -   **mrd.bat** (*coming soon*): Random decimal file maker
 -   **update.bat**: A program/software updater that copy-paste the programs/sofwares of your dev/download directory into the System32.
+-   **php.bat**: Same as htm but for PHP scripts.
 
 The executables can be found here:
 -   **init.exe** (Win64/Win32): http://adf.ly/1Xq4am / http://adf.ly/1Xq5Hi
@@ -28,6 +29,7 @@ The executables can be found here:
 -   **tran.exe** (Win64/Win32): http://adf.ly/1Xq4nx / http://adf.ly/1Xq5SS
 -   **mrd.exe** (Win64/Win32): / 
 -   **update.exe** (Win64/Win32): http://adf.ly/1XuFqO / http://adf.ly/1XuGkd
+-   **php.exe** (Win64/Win32): http://adf.ly/1ZKDVO / http://adf.ly/1ZKDil
 
 Once the executable/batch script are in the right place, type [command] /? to see their respective documentation.
 
